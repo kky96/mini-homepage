@@ -1,0 +1,79 @@
+/* --------------- */
+/* 가운대박스 */
+/* --------------- */
+.mide-title {
+    display: flex;
+    padding: 4px 0;
+}
+
+.mide-title-name {
+    flex: 1;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.mide-title-url {
+    flex: 1;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.photo-contanier p{
+    margin: 0;
+    text-align: left;
+}
+.photo-contanier{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+/* --------------- */
+/* 사진첩 */
+/* ---------------- */
+/* 1번 */
+.photo1{margin:6px 0 50px 6px}
+.photo1 .photo-title{
+    width: 100%;
+    height: 36px;
+    background: #eeeeee;
+    font-weight: bold;
+}
+.photo1 .photo-title .titleWord{
+    padding-top: 6px;
+    padding-left: 6px;
+}
+.photo1 img{
+    width: 80%;
+    padding:20px 0 20px 10px;
+}
+.photo1 .endWord{font-size: 18px;}
+/* 2번 */
+.photo2{margin:6px 0 50px 6px}
+.photo2 .photo-title{
+    width: 100%;
+    height: 36px;
+    background: #eeeeee;
+    font-weight: bold;
+}
+.photo2 .photo-title .titleWord{
+    padding-top: 6px;
+    padding-left: 6px;
+}
+.photo2 img{
+    width: 80%;
+    padding:20px 0 20px 20px;
+}
+.photo2 .endWord{font-size: 18px;}
+/* 3번 */
+.photo3{margin:6px 0 50px 6px}
+.photo3 .photo-title{
+    width: 100%;
+    height: 36px;
+    background: #eeeeee;
+    font-weight: bold;
+}
+.photo3 .photo-title .titleWord{
+    padding-top: 6px;
+    padding-left: 6px;
+}
+.photo3 img{
+    width: 80%;
+    padding:20px 0 20px 20px;
+}
+.photo3 .endWord{font-size: 18px;}

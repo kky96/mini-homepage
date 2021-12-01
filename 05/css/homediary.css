@@ -1,0 +1,157 @@
+/* --------------- */
+/* 가운대박스 */
+/* --------------- */
+.mide-title {
+    display: flex;
+    padding: 4px 0;
+}
+
+.mide-title-name {
+    flex: 1;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.mide-title-url {
+    flex: 1;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+/* --------------- */
+/* 달력 */
+/* --------------- */
+.date-box {
+    position: absolute;
+    height: 3rem;
+    width: 34rem;
+    border: 1px solid #e7e7e7;
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    margin-left: 0.8rem;
+}
+.today {
+    flex:0 0 2rem;
+    margin: 0 1rem;
+    text-align: center;
+    color: #3b87ab;
+    font-weight: 700;
+}
+.date-list{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.date {
+    flex: 0 0 1.5rem;
+    color: #707070;
+    cursor: pointer;
+    text-align: center;
+}
+  
+.scroll-box{
+    position: absolute;
+    margin-top: 4rem;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    overflow: auto;
+}
+  
+.red{
+      color: red;
+}
+  
+.blue{
+    color: blue;
+}
+/* --------------- */
+/* 메인 */
+/* --------------- */
+.mideDiary{
+    position: absolute;
+    margin-top: 5rem;
+    /* border: 1px solid hotpink; */
+    overflow-x:hidden ;
+    overflow-y:auto ;
+    width: 34rem;
+    height: 29rem;
+    align-items: center;
+    margin-left: 0.8rem;
+}
+/* --------------- */
+/* 메인01 */
+/* --------------- */
+.mideDiary .diary1{
+    border: 1px solid #eeeeee;
+    margin-bottom: 30px;
+}
+.mideDiary .diary1 .day{
+    margin-left: 20px;
+    font-weight: bold;
+    color:  #50bcdf;
+}
+.mideDiary .diary1 .Word{
+    text-align: center;
+    line-height: 40px;
+}
+/* --------------- */
+/* 메인02 */
+/* --------------- */
+.mideDiary .diary2{
+    border: 1px solid #eeeeee;
+    margin-bottom: 30px;
+}
+.mideDiary .diary2 .day{
+    margin-left: 20px;
+    font-weight: bold;
+    color:  #50bcdf;
+}
+.mideDiary .diary2 .Word{
+    text-align: center;
+    line-height: 40px;
+}
+/* --------------- */
+/* 비밀 다이어리 */
+/* --------------- */
+.lock{
+    background: white;
+    width: 14rem;
+    height: 4rem;
+    text-align: center;
+    margin-left: 30%;
+}
+
+.lock-button {
+    background: #fff;
+    color: #fff;
+    padding: 1rem;
+    cursor: pointer;
+    transition: 800ms ease all;
+    border: none;
+}
+.lock-button:hover{
+    background: springgreen;
+    color: #fff;
+}
+/* ---------------- */
+/* 비밀일기 */
+/* ---------------- */
+.diary-box{
+    margin-top: 20px;
+    border: 1px solid #eeeeee;
+    margin-bottom: 30px;
+}
+.diary-date{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+    color:  #50bcdf;
+}
+.diary-text{
+    margin:1rem 0 ;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+}
+#secret-box{display: none;}

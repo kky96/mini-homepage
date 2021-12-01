@@ -1,0 +1,27 @@
+/* <!-- 오른쪽 메뉴 --> */
+.right-container {
+    display: flex;
+    flex-direction: column;
+    flex: 0.15;
+    /* border: 1px solid grey; */
+    padding-top: 30px;
+}
+
+.right-container .menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    text-align: center;
+}
+
+.menu .menuWrap{
+    margin-top: 10px;
+    height: 30px;
+    background-color: rgb(8, 129, 119);
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    /* border-color: rgb(8, 129, 119); */
+}
+.menu .menuWrap:hover{
+    background-color: black;
+}
